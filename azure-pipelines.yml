@@ -28,5 +28,5 @@ stages:
             BrowserStackServiceEndPoint: 'BS_Demo_Creds'
       - script: |
           npm install
-          npm run bstack-parallel-browsers
+          npm run sample-test
         displayName: 'Run tests in parallel'
